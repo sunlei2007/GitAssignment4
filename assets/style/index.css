@@ -9,10 +9,7 @@
 .site-content-title{
     text-align: center;
 }
-h3{
-    font-size: 36px;
-    font-weight: 700;
-}
+
 .site-content-row {
     display: flex;
     justify-content:center;
@@ -65,46 +62,12 @@ h3{
 }
 
 @media(max-width: 768px) {
-
-   
-    .site-content-sec1-col-1, .site-content-sec1-col-2 {
-        width: 50%;
+    .aboutme-cls {
+        font-size:16px;
     }
-
-    .site-content-sec1-col-3 {
-        width: 50%;
-    }
-
-    .site-content-sec2-col-1, .site-content-sec2-col-2 {
-        width: 100%;
-    }
-
-    .site-content-sec3-col-1, .site-content-sec3-col-2 {
-        width: 100%;
-    }
-
-    .site-content-sec2-col-left, .site-content-sec2-col-right {
-        padding: 0px;
-    }
-
-    .site-content-sec3-col-left, .site-content-sec3-col-right {
-        padding: 0px;
-    }
-
-  
-}
 
 @media(max-width: 468px) {
 
-    .site-content-sec1-col-1, .site-content-sec1-col-2, .site-content-sec1-col-3 {
-        width: 100%
-    }
-    .site-content-sec2-col-left, .site-content-sec2-col-right {
-        padding: 0px;
-    }
-
-    .site-content-sec3-col-left, .site-content-sec3-col-right {
-        padding: 0px;
-    }
+   
 
 }

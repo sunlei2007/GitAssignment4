@@ -17,7 +17,7 @@ h3 {
 }
 h4 {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 700;
 }
 /*header style*/
 header {
@@ -152,92 +152,24 @@ footer {
 
 @media(max-width: 768px) {
      
-    .site-nav-desktop-nav {
-        display: none;
-    }
-
-    .site-nav-mobile-nav {
-        display: block;
-    }
-
-    .site-content-sec1-col-1, .site-content-sec1-col-2 {
-        width: 50%;
-    }
-
-    .site-content-sec1-col-3 {
-        width: 50%;
-    }
-
-    .site-content-sec2-col-1, .site-content-sec2-col-2 {
-        width: 100%;
-    }
-    .site-content-sec3-col-1, .site-content-sec3-col-2 {
-        width: 100%;
-    }
-
-    .site-content-sec2-col-left, .site-content-sec2-col-right {
-        padding: 0px;
-    }
-
-    .site-content-sec3-col-left , .site-content-sec3-col-right {
-        padding: 0px;
-    }
-    h2{
+    h3{
         font-size:20px;
     }
-    .banner-title h2 {
-        font-size: 24px;
-       
-    }
-    .banner-subtitle p {
-        font-size: 18px;
-       
-    }
-    h3 {
-        font-size: 24px;
-    }
     h4 {
-        font-size: 18px;
+        font-size: 20px;
     }
-
-    .site-footer-company-info span a {
-        font-size: 30px;
-    }
-    .site-footer-company-info p {     
-        font-size: 14px;
-    }
-
+    
 }
 @media(max-width: 468px) {
 
-    .site-content-sec1-col-1 , .site-content-sec1-col-2 ,.site-content-sec1-col-3 {
-        width: 100%
-    }
-    h2 {
-        font-size: 16px;
-    }
-
-    .banner-title h2 {
-        font-size: 20px;
-    }
-
-    .banner-subtitle p {
-        font-size: 16px;
-    }
-
+    
     h3 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
+     
     h4 {
         font-size: 16px;
     }
-
-    .site-footer-company-info span a {
-        font-size: 26px;
-    }
-
-    .site-footer-company-info p {
-        font-size: 12px;
-    }
+     
 }
