@@ -87,7 +87,7 @@ nav ul li a:hover {
 .herobanner {
     width: 100%;
     height: calc(100vh * 0.8);
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/banner-bg.jpeg) no-repeat center center;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/banner-bg.jpeg) no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -132,9 +132,10 @@ footer {
     justify-content:center;
     align-items:center;
 }
-.site-footer-social-link i + i {
-    margin-left: 18px;
-}
+    .site-footer-social-link a + a {
+        margin-left: 18px;
+        text-decoration: none;
+    }
 .site-footer-social-link i {
    
     color: #949393;
